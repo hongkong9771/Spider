@@ -14,11 +14,11 @@
 
 本系列按照所爬取内容的格式，共分为以下几种：
 
-| 内容    | 项目名称（代码链接）                                         | CSDN详解链接                                                 |
-| ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Text    | [B站视频弹幕+词云分析](https://github.com/hongkong9771/Spider/tree/main/Project%20Code/Text/danmu/danmu_bilibili) | [B站视频弹幕+词云分析](https://blog.csdn.net/qq_41447478/article/details/117416669) |
-| Picture | [唯美图片下载](https://github.com/hongkong9771/Spider/tree/main/Project%20Code/Picture/vmgirls_pictures) | [唯美图片下载](https://blog.csdn.net/qq_41447478/article/details/117418350) |
-|         |                                                              |                                                              |
+| 内容格式 | 项目名称                                                     | CSDN详解链接                                                 | 内容简介                |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------- |
+| Text     | [<font color=red>B站视频弹幕+词云分析</font>](###1.B站视频弹幕+词云分析) | [B站视频弹幕+词云分析](https://blog.csdn.net/qq_41447478/article/details/117416669) | 爬取B站弹幕，并制作词云 |
+| Picture  | [<font color=red>唯美图片下载</font>](###2.唯美图片下载)     | [唯美图片下载](https://blog.csdn.net/qq_41447478/article/details/117418350) | 按日期下载并分类图片    |
+|          |                                                              |                                                              |                         |
 
 
 
@@ -829,3 +829,124 @@ if __name__ == "__main__":
 
 ```
 
+
+
+----
+
+### A.附录
+
+---
+
+#### 1.常见库的使用
+
+##### 1）parsel
+
+还未更新完全......
+
+##### 2）xpath
+
+​		<font color=red>`xpath`</font>全称为<font color=blue>`XML Path Language`</font>，是一种小型的查询语言，在网页分析上比<font color=red>`re`</font>更具有优势，其可以在XML和HTML中查找有用信息，可以通过元素和属性进行导航。<font color=red>`xpath`</font>的基本语法在[菜鸟教程](https://www.runoob.com/xpath/xpath-tutorial.html)里有详细的讲解，这里就不过多赘述了，主要罗列一些笔者在爬虫过程中常用的方法。
+
+| 表达式      | 作用                                                         |
+| :---------- | :----------------------------------------------------------- |
+| //          | 定位根节点，会对全文进行扫描，在文档中选取所有符合条件的内容，以列表的形式返回。 |
+| /           | 寻找当前标签路径的下一层路径标签或者对当前路标签内容进行操作。 |
+| /**text()** | 获取当前路径下的文本内容。                                   |
+| **/@xxxx**  | 获取属性名为**xxxx**的属性值。                               |
+| \|          | 可选符，使用\|可选取若干个路径 如//p\|//div 即在当前路径下选取所有符合条件的p标签和div标签。 |
+| .           | 选取当前节点。                                               |
+| ..          | 选取当前节点的父节点。                                       |
+
+```html
+# html网页
+html="""
+    <!DOCTYPE html>
+    <html>
+        <head lang="en">
+        <title>测试</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        </head>
+        <body>
+            <div id="content">
+                <ul id="ul">
+                    <li>NO.1</li>
+                    <li>NO.2</li>
+                    <li>NO.3</li>
+                </ul>
+                <ul id="ul2">
+                    <li>one</li>
+                    <li>two</li>
+                </ul>
+            </div>
+            <div id="url">
+                <a href="http:www.58.com" title="58">58</a>
+                <a href="http:www.csdn.net" title="CSDN">CSDN</a>
+            </div>
+        </body>
+    </html>
+"""
+```
+
+- 代码示例1
+
+```python
+import parsel
+parse = parsel.Selector(html)
+content = parse.xpath('//div[@id="content"]/ul[@id="ul"]/li/text()').getall()	# 这里使用id属性来定位哪个div和ul被匹配 使用text()获取文本内容
+for i in content:
+    print(i)
+```
+
+```python
+NO.1
+NO.2
+NO.3
+```
+
+- 代码示例2
+
+```python
+content = parse.xpath('//a/@href').getall() #这里使用//从全文中定位符合条件的a标签，使用“@标签属性”获取a标签的href属性值
+for each in content:
+    print(each)
+```
+
+```python
+http:www.58.com
+http:www.csdn.net
+```
+
+- 代码示例3
+
+```python
+# content = parse.xpath('/html/body/div/a/@title').getall() # 使用绝对路径定位a标签的title
+# content = parse.xpath('//a/@title').getall() # 使用相对路径定位a标签的title
+content = parse.xpath('//a/text()').getall() #首先定位到a标签，然后使用text()获取文本内容，虽然与上面两种方法获取到的值一样，但是获取内容的地方是不一样的。
+for i in content:
+    print (i)
+```
+
+```python
+58
+CSDN
+```
+
+​		[CSDN](https://blog.csdn.net/Winterto1990/article/details/47903653)中关于<font color=red>`xpath`</font>的一个讲解，还可以。本节示例就是参考的这个博客。[知乎专栏](https://zhuanlan.zhihu.com/p/29436838)也有一个不错的介绍。
+
+----
+
+#### 2.项目难度指标
+
+----
+
+##### 1）1颗星:star:
+
+##### 2）2颗星:star::star:
+
+##### 3）3颗星:star::star::star:
+
+##### 4）4颗星:star::star::star::star:
+
+##### 5）5颗星:star::star::star::star::star:
+
+##### 6）6颗星:star::star::star::star::star::star:
