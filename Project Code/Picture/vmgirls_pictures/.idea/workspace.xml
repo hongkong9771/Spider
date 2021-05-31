@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df13d11a-7dfe-4c86-9a90-8fde8b169934" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="vmgirls_pictures" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/spider_version3.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spider_version1.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JupyterTrust" id="a886242a-7e3a-435d-acd0-e278ba286cd6" />
+  <component name="ProjectId" id="1ix7L9BR6YsEVGJeiWR6t74qqYb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\demo\vmgirls_pictures" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.spider_version3">
+    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vmgirls_pictures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\demo\picture\vmgirls_pictures\spider_version1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spider_version3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vmgirls_pictures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_version3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.spider_version3" />
+        <item itemvalue="Python.spider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df13d11a-7dfe-4c86-9a90-8fde8b169934" name="Default Changelist" comment="" />
+      <created>1602837330865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602837330865</updated>
+      <workItem from="1602837332121" duration="5433000" />
+      <workItem from="1603105673958" duration="9202000" />
+      <workItem from="1603154835038" duration="6761000" />
+      <workItem from="1603184858662" duration="213000" />
+      <workItem from="1603189499282" duration="100000" />
+      <workItem from="1603191282239" duration="1445000" />
+      <workItem from="1603198217039" duration="4080000" />
+      <workItem from="1603261115278" duration="1237000" />
+      <workItem from="1603285640182" duration="916000" />
+      <workItem from="1603437637617" duration="1189000" />
+      <workItem from="1603865948816" duration="2231000" />
+      <workItem from="1603977494050" duration="668000" />
+      <workItem from="1605084331746" duration="7284000" />
+      <workItem from="1605144725690" duration="1866000" />
+      <workItem from="1605854171514" duration="39000" />
+      <workItem from="1605854933610" duration="1889000" />
+      <workItem from="1605857468418" duration="4406000" />
+      <workItem from="1605866578172" duration="2488000" />
+      <workItem from="1605869378951" duration="517000" />
+      <workItem from="1605869919853" duration="764000" />
+      <workItem from="1605924433293" duration="1421000" />
+      <workItem from="1606127919308" duration="11790000" />
+      <workItem from="1606180154949" duration="67671000" />
+      <workItem from="1606351962785" duration="5615000" />
+      <workItem from="1606812803368" duration="5647000" />
+      <workItem from="1608290875479" duration="34531000" />
+      <workItem from="1608382636466" duration="9893000" />
+      <workItem from="1608518884829" duration="3508000" />
+      <workItem from="1608792291482" duration="17265000" />
+      <workItem from="1608857708936" duration="5432000" />
+      <workItem from="1611138753178" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="119" key="#Inspections" timestamp="1605870580565">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="119" key="#Inspections/0.0.1440.920@0.0.1440.920" timestamp="1605870580565" />
+    <state x="93" y="93" width="1255" height="735" key="DiffContextDialog" timestamp="1606298904875">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="93" y="93" width="1255" height="735" key="DiffContextDialog/0.0.1440.920@0.0.1440.920" timestamp="1606298904875" />
+    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1605856838851">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1605098754622" />
+    <state x="791" y="-836" key="FileChooserDialogImpl/0.0.1440.920/123.-1080.1920.1040@123.-1080.1920.1040" timestamp="1605093244357" />
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1605856838851" />
+    <state width="1397" height="256" key="GridCell.Tab.0.bottom" timestamp="1608863311176">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="204" key="GridCell.Tab.0.bottom/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1605104024295" />
+    <state width="1397" height="256" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1608863311176" />
+    <state width="1397" height="256" key="GridCell.Tab.0.center" timestamp="1608863311176">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="204" key="GridCell.Tab.0.center/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1605104024295" />
+    <state width="1397" height="256" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1608863311176" />
+    <state width="1397" height="256" key="GridCell.Tab.0.left" timestamp="1608863311176">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="204" key="GridCell.Tab.0.left/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1605104024295" />
+    <state width="1397" height="256" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1608863311176" />
+    <state width="1397" height="256" key="GridCell.Tab.0.right" timestamp="1608863311176">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="204" key="GridCell.Tab.0.right/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1605104024295" />
+    <state width="1397" height="256" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1608863311176" />
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1605858281964">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1605104024295" />
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1605858281964" />
+    <state width="1397" height="300" key="GridCell.Tab.1.center" timestamp="1605858281964">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1605104024295" />
+    <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1605858281964" />
+    <state width="1397" height="300" key="GridCell.Tab.1.left" timestamp="1605858281964">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1605104024295" />
+    <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1605858281964" />
+    <state width="1397" height="300" key="GridCell.Tab.1.right" timestamp="1605858281964">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1605104024295" />
+    <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1605858281964" />
+    <state x="307" y="112" key="SettingsEditor" timestamp="1608796212700">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="350" y="205" key="SettingsEditor/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1603196092858" />
+    <state x="307" y="112" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1608796212700" />
+    <state width="727" height="467" key="XDebugger.FullValuePopup" timestamp="1605094366835">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="727" height="467" key="XDebugger.FullValuePopup/0.0.1440.920/123.-1080.1920.1040@0.0.1440.920" timestamp="1605094366835" />
+    <state x="443" y="372" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1608371834251">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="443" y="372" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.920@0.0.1440.920" timestamp="1608371834251" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vmgirls_pictures$spider.coverage" NAME="spider Coverage Results" MODIFIED="1606128416721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/vmgirls_pictures$spider_version3.coverage" NAME="spider_version3 Coverage Results" MODIFIED="1608863031735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
