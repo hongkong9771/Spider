@@ -1,6 +1,6 @@
 # -*- coding : utf-8 -*- 
 # @Time : 2020/11/11 19:15
-# @Author : 危红康
+# @Author : whk
 # @File : spider_version2.py
 # @Software: PyCharm
 

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="df13d11a-7dfe-4c86-9a90-8fde8b169934" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider_version1.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_version1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider_version2.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_version2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider_version3.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_version3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +171,7 @@
       <workItem from="1608792291482" duration="17265000" />
       <workItem from="1608857708936" duration="5432000" />
       <workItem from="1611138753178" duration="17000" />
-      <workItem from="1647504771715" duration="806000" />
+      <workItem from="1647504771715" duration="1461000" />
     </task>
     <task id="LOCAL-00001" summary="delete the information of User-Agent and cookie.">
       <created>1647505014037</created>
