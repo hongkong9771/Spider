@@ -28,8 +28,8 @@ def main():
         }
     head2 = {
         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-        "cookie": "_ga=GA1.2.1922923184.1602836315; __gads=ID=34b49ee968e4ec97-22860e091bc40094:T=1602848439:RT=1602848439:S=ALNI_MaBKdsjskniK7Cdkn8_4KfYS0UX4A; __cfduid=dc5fedd11edb42acb92900bf5c0d393b81602851422; Hm_lvt_a5eba7a40c339f057e1c5b5ac4ab4cc9=1602851933,1602853279,1603000987,1603105617; _GPSLSC=; Hm_lpvt_a5eba7a40c339f057e1c5b5ac4ab4cc9=1603112048",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+        "User-Agent": "Your User-Agent information",
+        "cookie": "Your cookie information"
     }
     baseurl = "https://www.vmgirls.com/"
     html = askurl(baseurl, head1)

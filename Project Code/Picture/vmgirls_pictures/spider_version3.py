@@ -23,8 +23,8 @@ import time
 def main():
     baseurl = "https://www.vmgirls.com/archives.html"
     head = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36",
-        "cookie": "_ga=GA1.2.893700501.1602833025; __gads=ID=5cf3e347dd6b2d84-229b22aa1bc400f7:T=1602834524:RT=1602834524:S=ALNI_ManB5ea_g7S5PZe0TKNxBzkX5j1uA; Hm_lvt_a5eba7a40c339f057e1c5b5ac4ab4cc9=1602832999,1603073523,1605085840,1605235089; _GPSLSC=; Hm_lpvt_a5eba7a40c339f057e1c5b5ac4ab4cc9=1605235201"
+        "User-Agent": "Your User-Agent information",
+        "cookie": "Your cookie information"
     }
     name_year, name_month, number_year, number_month = file_path_name(baseurl, head)
     html = askurl(baseurl, head)

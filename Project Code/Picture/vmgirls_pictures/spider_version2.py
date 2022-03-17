@@ -18,7 +18,8 @@ import os
 def main():
     baseurl = "https://www.vmgirls.com/archives.html"
     head = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+        "User-Agent": "Your User-Agent information",
+        "cookie": "Your cookie information"
     }
     html = askurl(baseurl, head)
     names, urls = getlinks(html)        # 所有专辑的链接
